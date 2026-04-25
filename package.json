@@ -1,0 +1,11 @@
+{
+  "name": "openclaw-local-seo-dashboard",
+  "version": "2.0.0",
+  "private": true,
+  "workspaces": ["assistant-api", "assistant-web"],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=assistant-api",
+    "dev:web": "npm run dev --workspace=assistant-web",
+    "install:all": "npm install"
+  }
+}
